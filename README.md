@@ -17,7 +17,7 @@ Activity
 ```
 ```
 rails g scaffold Category name 
-rails g scaffold Activity name 
+rails g scaffold Activity name notes:text category:references
 
 
 
